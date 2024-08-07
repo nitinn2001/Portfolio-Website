@@ -24,7 +24,9 @@ import {
     tripguide,
     threejs,
     bliss,
-    foodapp
+    foodapp,
+    youtubenotes,
+    nlogo
 } from "../assets";
 
 export const navLinks = [
@@ -39,6 +41,11 @@ export const navLinks = [
     {
         id: "contact",
         title: "Contact",
+    },
+    {
+        id: "resume",
+        title: "Resume",
+        url: "/Nitin_Jeyakumar_2024.pdf",
     },
 ];
 
@@ -205,19 +212,19 @@ const projects = [
             },
         ],
         image: foodapp,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/nitinn2001/Food-Delivery-App",
     },
     {
-        name: "Trip Guide",
+        name: "Youtube Notes",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A web app that lets users take and save notes while watching YouTube videos. Built with HTML, CSS, and Firebase, it provides a seamless experience for organizing and referencing video-related insights.",
         tags: [
             {
-                name: "nextjs",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "firebase",
                 color: "green-text-gradient",
             },
             {
@@ -225,8 +232,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: youtubenotes,
+        source_code_link: "https://github.com/nitinn2001/YoutubeNotes",
     },
 ];
 

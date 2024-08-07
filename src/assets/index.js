@@ -31,6 +31,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bliss from "./bliss.png"
 import foodapp from "./foodapp.png"
+import youtubenotes from "./youtubenotes.png"
+import nlogo from "./nlogo.png"
 
 export {
   logo,
@@ -62,5 +64,7 @@ export {
   jobit,
   tripguide,
   bliss,
-  foodapp
+  foodapp,
+  youtubenotes,
+  nlogo
 };

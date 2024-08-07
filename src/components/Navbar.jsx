@@ -3,12 +3,22 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import {logo,menu,close} from "../assets";
+import {nlogo,menu,close} from "../assets";
 
 const Navbar = () => {
 
   const [active,setActive] = useState('')
   const [toggle,setToggle] = useState(false)
+
+
+  const handleClick = (link) => {
+    if (link.id === "resume") {
+      window.open(link.url, '_blank');
+    } else {
+      setActive(link.title);
+    }
+  };
+
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -18,20 +28,21 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0,0);
         }}>
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
+          <img src={nlogo} alt="logo" className='w-9 h-9 object-contain'/>
           <p className='text-white text-[18px] font-bold cursor-pointer'>Nitin Jeyakumar</p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((link)=>(
+        {navLinks.map((link) => (
             <li
-            key={link.id}
-            className={`${
-              active===Link.title
-              ?"text-white"
-              :"text-secondary"
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
-            onClick={()=>setActive(Link.title)}>
-              <a href={`#${link.id}`}>{link.title}</a>
+              key={link.id}
+              className={`${
+                active === link.title
+                  ? "text-white"
+                  : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => handleClick(link)}
+            >
+              <a href={link.id === "resume" ? undefined : `#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
