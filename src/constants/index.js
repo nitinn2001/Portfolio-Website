@@ -121,7 +121,7 @@ const experiences = [
         company_name: "Headstarter",
         icon: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3NzcsNzc3NzU3Nzc3Nzc3NTc3NzU4LTc3NzI1MDcvNzc3LTc3LTc3Ny01Nf/AABEIABwAHAMBEQACEQEDEQH/xAAbAAABBAMAAAAAAAAAAAAAAAAGAAMFBwECBP/EACQQAAIBBAIBBAMAAAAAAAAAAAECAwAEBREhMRIGIlFhFEGh/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECBQMG/8QAJREAAgIBAgQHAAAAAAAAAAAAAAECEQMEMQUhUdESQmFxocHw/9oADAMBAAIRAxEAPwCn4yNVZDHbm2nhSJp4JYlmXziMiFRIvypPY+xQJST2ZzBNmgs28KBWZsYJ7u5jtrWMyTSHxRB+zSRGXJDFBzm6SLZwmIyC+m48LmrmKWyVy4to02Rs78S551vn26P2RxXVQ6njtbxtPI5aVU+r+l3v2BL13byRz2c0VokGMKvDalFChyjaf+9fIGx3Uy3Nzg0ZLA5ZJNzlzd+u3x2BJm5qTYGVJVgykhgdgg6INIbVqmF2B9YzWOFv4Lu4mmutD8RpCXOzwdk9AcGrU6Rga3gsM+pxzhFKPmrl+vYhZvUGSuMNHiLm5aeyicPEkoDNERse1uwNEjXVTZtLDBT8aVMiyaR1MUAKgBUAKgD/2Q==",
         iconBg: "#383E56",
-        date: "July 2024 - Present",
+        date: "July 2024 - September 2024",
         points: [
             "Working on apps and API's using Next.js, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users",
             "Developed projects from design to deployment leading 4+ engineering fellows using MVC design patterns",
