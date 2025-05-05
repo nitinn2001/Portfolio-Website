@@ -45,7 +45,7 @@ export const navLinks = [
     {
         id: "resume",
         title: "Resume",
-        url: "/Nitin_Jeyakumar_2025.pdf",
+        url: "/Nitin_Jeyakumar_Resume.pdf",
     },
 ];
 
